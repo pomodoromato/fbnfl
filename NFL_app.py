@@ -327,12 +327,7 @@ async def main():
         await update(pass_df,
                      rush_df,
                      complete_df)
-        
 
-        # await store_as_json(
-        #     list=results, 
-        #     file_path="C:\\Users\\tnytr\\OneDrive\\Desktop\\\\Sportsref\\NCAAFB live stats\\ncaafb_liveteamstats.json"
-        #     )
 
 if __name__ == "__main__":
     asyncio.run(main())
